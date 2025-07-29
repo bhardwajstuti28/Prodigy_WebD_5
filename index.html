@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App (Mock)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="weather-app">
+    <h1>🌤 Weather App</h1>
+    <form id="locationForm">
+      <input type="text" id="locationInput" placeholder="Enter city name" required />
+      <button type="submit">Get Weather</button>
+    </form>
+    <div id="weatherResult" class="hidden">
+      <h2 id="cityName">City</h2>
+      <p>🌡 Temp: <span id="temperature">--</span>°C</p>
+      <p>🌥 Condition: <span id="condition">--</span></p>
+      <p>💧 Humidity: <span id="humidity">--</span>%</p>
+      <p>🌬 Wind: <span id="wind">--</span> km/h</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
